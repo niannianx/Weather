@@ -1,0 +1,134 @@
+body{
+   text-align: center;
+   background-image: url(./photo/beijing.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.theBody{
+    /* width: 80rem;
+    height: 45rem; */
+    /* width: 80vw;
+    height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.Search{
+    width: 80vw;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    /* border: solid 2px; */
+}
+.Display{
+    width: 70vw;
+    /* height: 60vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchBox{
+    width: 40rem;
+    height: 5rem;
+    border-radius: 2rem;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.01);
+    /* border: 2px dashed rgba(0, 0, 0, 0.41); */
+    box-shadow: 0rem 0.7rem 2rem 0px rgba(0, 0, 0, 0.3);
+    margin-right: 2rem;
+    background-color: #c2dce9cf;
+    color:#495d67 ;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    transition:0.7s;
+}
+.searchButton{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    opacity: 0.4;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background-image: url(./photo/search-line.svg);
+    background-size: cover;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3),0px 4px 10px 0px rgba(0, 0, 0, 0.3),0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: #c2dce9cf;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.temp{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 25px;
+    opacity: 1;
+
+    background: rgba(255, 255, 255, 0.01);
+
+    /* border: 4px dashed rgba(0, 0, 0, 0.41); */
+
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    margin-right: 3rem;
+    background-color: #c2dce9cf;
+}
+.box{
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.location{
+    /* width: 20rem; */
+    height: 10rem;
+    opacity: 1;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    /* border: 4px solid rgba(0, 0, 0, 0.1); */
+
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: #c2dce9cf;
+}
+.humidity{
+    /* width: 20rem; */
+    height: 13rem;
+    opacity: 1;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    /* border: 4px solid rgba(0, 0, 0, 0.1); */
+    
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    background-color: #c2dce9cf;
+}
+/* input[type=text]{
+    border: none;
+}
+input[type=text]:focus{
+    border: 3px solid red;
+} */
+.searchBox:focus{
+    border: 1.5px solid #495d67;
+}
+
+.Ima{
+    /* width: 15rem; */
+    height: 15rem;
+}
+.tempBox{
+    /* width: 15rem; */
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.tempNum{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 3rem;
+}
