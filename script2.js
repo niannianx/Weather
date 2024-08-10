@@ -1,3 +1,4 @@
+
 let but = document.getElementById("but");
 but.onclick = function find() {
     let citys = document.getElementById("city").value;
@@ -43,6 +44,17 @@ but.onclick = function find() {
                     let temperature = weatherData.now.temp;
                     console.log(`${firstLocation.name} 温度: ${temperature}°C`);
                     document.getElementById("tempNumber").innerHTML=temperature
+                    let icon=weatherData.now.icon
+                    console.log(icon)
+                    const imageElement = document.getElementById('image');
+                    const textElement=document.getElementById('text')
+                    let text=weatherData.now.text
+                    textElement.innerHTML=text
+                    function changeImage(icon){
+                        const imageName='./photo/'+icon+'.svg'
+                        imageElement.src=imageName
+                    }
+                    changeImage(icon)
                 } else {
                     console.error('Weather data format is incorrect or no data returned');
                 }
